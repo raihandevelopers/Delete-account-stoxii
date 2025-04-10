@@ -63,7 +63,7 @@ const AccountDeletion = () => {
 
     try {
       // API call to send OTP
-      const response = await fetch(`/api/v1/auth/phone-otp/send`, {
+      const response = await fetch(`${BASE_URL}api/v1/auth/phone-otp/send`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -100,7 +100,7 @@ const AccountDeletion = () => {
 
     try {
       // API call to verify OTP
-      const response = await fetch(`/api/v1/auth/phone-otp/verify`, {
+      const response = await fetch(`${BASE_URL}api/v1/auth/phone-otp/verify`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

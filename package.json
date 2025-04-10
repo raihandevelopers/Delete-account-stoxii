@@ -2,7 +2,6 @@
   "name": "stoxii-account-deletion",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://api.stoxii.com",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
